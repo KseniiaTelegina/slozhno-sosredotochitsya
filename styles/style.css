@@ -33,10 +33,12 @@
   block-size: 100vh;
   display: grid;
   grid-template-rows:repeat(3, minmax(min-content, max-content)) repeat(2, min-content);
+  margin-block-end: 40px;
 }
 
 .header__decorated {
   justify-self: end;
+  margin-block-start: 3px;
   margin-inline-end: 10px;
   position: absolute;
   display: flex;
@@ -225,7 +227,7 @@
 
   .header {
     min-block-size: 1024px;
-    margin-block-end: 11%;
+    margin-block-end: 60px;
   }
 
   .header__theme-menu {
@@ -315,7 +317,7 @@
   }
 }
 
-@media (800px < width <= 1024px) {
+@media (768px < width <= 1024px) {
   .page {
     padding: 20px;
   }
