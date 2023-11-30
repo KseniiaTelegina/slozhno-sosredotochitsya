@@ -1,5 +1,4 @@
 .page {
-  /* padding: 10px; */
   font-family: var(--main-font);
   background-color: var(--bg-color);
   background-image: var(--bg-image);
@@ -39,7 +38,6 @@
   grid-template-rows:repeat(3, minmax(min-content, max-content)) repeat(2, min-content);
   grid-template-columns: repeat(2, 1fr);
   margin-block-end: 40px;
-  /* padding-block-end: 10px; */
 }
 
 .header__decorated {
@@ -217,7 +215,6 @@ main {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, min-content);
   block-size: 100vh;
-  /* padding-block-start: 10px; */
 }
 
 .footer__title {
@@ -229,10 +226,6 @@ main {
 }
 
 @media (width >= 768px) {
-  /* .page {
-    padding: 20px;
-  } */
-
   .header,
   .footer {
     min-block-size: 1024px;
@@ -241,7 +234,6 @@ main {
 
   .header {
     margin-block-end: 60px;
-    /* padding-block-end: 20px; */
   }
 
   main {
