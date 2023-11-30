@@ -1,7 +1,6 @@
 .page {
   padding: 10px;
   font-family: var(--main-font);
-  /* font-size: 18px; */
   background-color: var(--bg-color);
   background-image: var(--bg-image);
   background-position: center;
@@ -20,7 +19,6 @@
   block-size: 25px;
   border-block-start: 1px solid var(--decor-color);
   border-inline-end: 1px solid var(--decor-color);
-  /* margin-inline-start: calc(100% - 25px); */
 }
 
 .decorated-zone::after {
@@ -40,12 +38,12 @@
   grid-template-rows:repeat(3, minmax(min-content, max-content)) repeat(2, min-content);
   grid-template-columns: repeat(2, 1fr);
   margin-block-end: 40px;
+  padding-block-end: 10px;
 }
 
 .header__decorated {
   grid-column: 2;
   grid-row: 1;
-  font-size: 18px;
   justify-self: end;
   margin-block-start: 3px;
   margin-inline-end: 10px;
@@ -153,7 +151,6 @@
 
 .container__title {
   color: var(--decor-color);
-  /* font-size: 18px; */
   font-weight: 700;
   line-height: var(--line-height);
 }
@@ -166,12 +163,10 @@
 
 .article__title {
   margin-block-end: 10px;
-  /* font-size: 18px; */
 }
 
 .article__text {
   color: var(--text-color);
-  /* font-size: 18px; */
   font-weight: 400;
   line-height: var(--line-height);
 }
@@ -188,9 +183,7 @@
   outline: 1px solid var(--text-color);
 }
 
-
 .title-regular {
-  /* font-size: 18px; */
   font-weight: 400;
   margin-block-end: 10px;
 }
@@ -199,16 +192,11 @@
   margin-block-end: 20px;
 }
 
-
 .gallery {
   display: grid;
   gap: 10px;
   margin-block-end: 40px;
 }
-
-/* .gallery__title {
-  font-size: 18px;
-} */
 
 .content__picture {
   inline-size: 100%;
@@ -245,6 +233,7 @@
 
   .header {
     margin-block-end: 60px;
+    padding-block-end: 20px;
   }
 
   .header__theme-menu {
@@ -327,14 +316,8 @@
   }
 
   .header {
-    /* grid-template-columns: repeat(2, 1fr); */
     grid-template-rows: repeat(4, min-content);
-    /* margin-block-end: 60px; */
   }
-
-  /* .decorated-zone::before {
-    grid-column: 3/4;
-  } */
 
   .decorated-zone::after {
     grid-row: 4;
@@ -344,9 +327,7 @@
     justify-self: center;
     margin-block-start: -25px;
     margin-block-end: 273px;
-    /* grid-row: 1/2; */
     grid-column: span 2;
-    /* margin-inline-start: 397px; */
   }
 
   .header__theme-menu-list {
@@ -360,11 +341,9 @@
   }
 
   .header__text {
-    /* max-height: 30%; */
     align-self: flex-end;
     justify-self: end;
     margin-block-end: 114px;
-    /* grid-column-start: 2; */
   }
 
   .container-concentration .container-list {
@@ -380,7 +359,7 @@
     margin-block: 290px;
   }
 
-  .footer.decorated-zone::after  {
+  .footer.decorated-zone::after {
     grid-row: 3;
   }
 }
