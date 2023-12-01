@@ -99,6 +99,8 @@
   text-transform: lowercase;
   appearance: none;
   cursor: pointer;
+  font-size: 18px;
+  line-height: 18px;
 }
 
 .header__theme-menu-button_active {
@@ -142,7 +144,7 @@
   margin-block-end: 31px;
 }
 
-main {
+.main {
   padding-inline-start: 10px;
   padding-inline-end: 10px;
 }
@@ -236,7 +238,7 @@ main {
     margin-block-end: 60px;
   }
 
-  main {
+  .main {
     padding-inline-start: 20px;
     padding-inline-end: 20px;
   }
@@ -361,7 +363,7 @@ main {
   }
 
   .footer__title {
-    margin-block: 290px;
+    margin-block: 274px;
   }
 
   .footer.decorated-zone::after {
